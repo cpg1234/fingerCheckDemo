@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04166325210EF3F7005992A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04166324210EF3F6005992A6 /* AppDelegate.m */; };
+		04166328210EF3F7005992A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04166327210EF3F7005992A6 /* ViewController.m */; };
+		0416632B210EF3F7005992A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04166329210EF3F7005992A6 /* Main.storyboard */; };
+		0416632D210EF40E005992A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0416632C210EF40E005992A6 /* Assets.xcassets */; };
+		04166330210EF40E005992A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0416632E210EF40E005992A6 /* LaunchScreen.storyboard */; };
+		04166333210EF40E005992A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04166332210EF40E005992A6 /* main.m */; };
+		0416633D210EF40E005992A6 /* FingerCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0416633C210EF40E005992A6 /* FingerCheckTests.m */; };
+		04166348210EF40E005992A6 /* FingerCheckUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04166347210EF40E005992A6 /* FingerCheckUITests.m */; };
+		04166357210EF6B1005992A6 /* FingerCheckUnitl.m in Sources */ = {isa = PBXBuildFile; fileRef = 04166356210EF6B1005992A6 /* FingerCheckUnitl.m */; };
+		0416635A210EFCA0005992A6 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04166359210EFCA0005992A6 /* LocalAuthentication.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04166339210EF40E005992A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04166318210EF3F6005992A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0416631F210EF3F6005992A6;
+			remoteInfo = FingerCheck;
+		};
+		04166344210EF40E005992A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04166318210EF3F6005992A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0416631F210EF3F6005992A6;
+			remoteInfo = FingerCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04166320210EF3F6005992A6 /* FingerCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04166323210EF3F6005992A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04166324210EF3F6005992A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04166326210EF3F7005992A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04166327210EF3F7005992A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0416632A210EF3F7005992A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0416632C210EF40E005992A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0416632F210EF40E005992A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04166331210EF40E005992A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04166332210EF40E005992A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04166338210EF40E005992A6 /* FingerCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0416633C210EF40E005992A6 /* FingerCheckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerCheckTests.m; sourceTree = "<group>"; };
+		0416633E210EF40E005992A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04166343210EF40E005992A6 /* FingerCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04166347210EF40E005992A6 /* FingerCheckUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerCheckUITests.m; sourceTree = "<group>"; };
+		04166349210EF40E005992A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04166355210EF6B1005992A6 /* FingerCheckUnitl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerCheckUnitl.h; sourceTree = "<group>"; };
+		04166356210EF6B1005992A6 /* FingerCheckUnitl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerCheckUnitl.m; sourceTree = "<group>"; };
+		04166359210EFCA0005992A6 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0416631D210EF3F6005992A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0416635A210EFCA0005992A6 /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04166335210EF40E005992A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04166340210EF40E005992A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04166317210EF3F6005992A6 = {
+			isa = PBXGroup;
+			children = (
+				04166322210EF3F6005992A6 /* FingerCheck */,
+				0416633B210EF40E005992A6 /* FingerCheckTests */,
+				04166346210EF40E005992A6 /* FingerCheckUITests */,
+				04166321210EF3F6005992A6 /* Products */,
+				04166358210EFCA0005992A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04166321210EF3F6005992A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04166320210EF3F6005992A6 /* FingerCheck.app */,
+				04166338210EF40E005992A6 /* FingerCheckTests.xctest */,
+				04166343210EF40E005992A6 /* FingerCheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04166322210EF3F6005992A6 /* FingerCheck */ = {
+			isa = PBXGroup;
+			children = (
+				04166323210EF3F6005992A6 /* AppDelegate.h */,
+				04166324210EF3F6005992A6 /* AppDelegate.m */,
+				04166326210EF3F7005992A6 /* ViewController.h */,
+				04166327210EF3F7005992A6 /* ViewController.m */,
+				04166355210EF6B1005992A6 /* FingerCheckUnitl.h */,
+				04166356210EF6B1005992A6 /* FingerCheckUnitl.m */,
+				04166329210EF3F7005992A6 /* Main.storyboard */,
+				0416632C210EF40E005992A6 /* Assets.xcassets */,
+				0416632E210EF40E005992A6 /* LaunchScreen.storyboard */,
+				04166331210EF40E005992A6 /* Info.plist */,
+				04166332210EF40E005992A6 /* main.m */,
+			);
+			path = FingerCheck;
+			sourceTree = "<group>";
+		};
+		0416633B210EF40E005992A6 /* FingerCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				0416633C210EF40E005992A6 /* FingerCheckTests.m */,
+				0416633E210EF40E005992A6 /* Info.plist */,
+			);
+			path = FingerCheckTests;
+			sourceTree = "<group>";
+		};
+		04166346210EF40E005992A6 /* FingerCheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04166347210EF40E005992A6 /* FingerCheckUITests.m */,
+				04166349210EF40E005992A6 /* Info.plist */,
+			);
+			path = FingerCheckUITests;
+			sourceTree = "<group>";
+		};
+		04166358210EFCA0005992A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04166359210EFCA0005992A6 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0416631F210EF3F6005992A6 /* FingerCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0416634C210EF40E005992A6 /* Build configuration list for PBXNativeTarget "FingerCheck" */;
+			buildPhases = (
+				0416631C210EF3F6005992A6 /* Sources */,
+				0416631D210EF3F6005992A6 /* Frameworks */,
+				0416631E210EF3F6005992A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerCheck;
+			productName = FingerCheck;
+			productReference = 04166320210EF3F6005992A6 /* FingerCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04166337210EF40E005992A6 /* FingerCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0416634F210EF40E005992A6 /* Build configuration list for PBXNativeTarget "FingerCheckTests" */;
+			buildPhases = (
+				04166334210EF40E005992A6 /* Sources */,
+				04166335210EF40E005992A6 /* Frameworks */,
+				04166336210EF40E005992A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0416633A210EF40E005992A6 /* PBXTargetDependency */,
+			);
+			name = FingerCheckTests;
+			productName = FingerCheckTests;
+			productReference = 04166338210EF40E005992A6 /* FingerCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04166342210EF40E005992A6 /* FingerCheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04166352210EF40E005992A6 /* Build configuration list for PBXNativeTarget "FingerCheckUITests" */;
+			buildPhases = (
+				0416633F210EF40E005992A6 /* Sources */,
+				04166340210EF40E005992A6 /* Frameworks */,
+				04166341210EF40E005992A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04166345210EF40E005992A6 /* PBXTargetDependency */,
+			);
+			name = FingerCheckUITests;
+			productName = FingerCheckUITests;
+			productReference = 04166343210EF40E005992A6 /* FingerCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04166318210EF3F6005992A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					0416631F210EF3F6005992A6 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					04166337210EF40E005992A6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0416631F210EF3F6005992A6;
+					};
+					04166342210EF40E005992A6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0416631F210EF3F6005992A6;
+					};
+				};
+			};
+			buildConfigurationList = 0416631B210EF3F6005992A6 /* Build configuration list for PBXProject "FingerCheck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04166317210EF3F6005992A6;
+			productRefGroup = 04166321210EF3F6005992A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0416631F210EF3F6005992A6 /* FingerCheck */,
+				04166337210EF40E005992A6 /* FingerCheckTests */,
+				04166342210EF40E005992A6 /* FingerCheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0416631E210EF3F6005992A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04166330210EF40E005992A6 /* LaunchScreen.storyboard in Resources */,
+				0416632D210EF40E005992A6 /* Assets.xcassets in Resources */,
+				0416632B210EF3F7005992A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04166336210EF40E005992A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04166341210EF40E005992A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0416631C210EF3F6005992A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04166328210EF3F7005992A6 /* ViewController.m in Sources */,
+				04166333210EF40E005992A6 /* main.m in Sources */,
+				04166357210EF6B1005992A6 /* FingerCheckUnitl.m in Sources */,
+				04166325210EF3F7005992A6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04166334210EF40E005992A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0416633D210EF40E005992A6 /* FingerCheckTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0416633F210EF40E005992A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04166348210EF40E005992A6 /* FingerCheckUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0416633A210EF40E005992A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0416631F210EF3F6005992A6 /* FingerCheck */;
+			targetProxy = 04166339210EF40E005992A6 /* PBXContainerItemProxy */;
+		};
+		04166345210EF40E005992A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0416631F210EF3F6005992A6 /* FingerCheck */;
+			targetProxy = 04166344210EF40E005992A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04166329210EF3F7005992A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0416632A210EF3F7005992A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0416632E210EF40E005992A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0416632F210EF40E005992A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0416634A210EF40E005992A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0416634B210EF40E005992A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0416634D210EF40E005992A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZAJ3ZWAA7;
+				INFOPLIST_FILE = FingerCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tony.FingerCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0416634E210EF40E005992A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZAJ3ZWAA7;
+				INFOPLIST_FILE = FingerCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tony.FingerCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04166350210EF40E005992A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FingerCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tony.FingerCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerCheck.app/FingerCheck";
+			};
+			name = Debug;
+		};
+		04166351210EF40E005992A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FingerCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tony.FingerCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerCheck.app/FingerCheck";
+			};
+			name = Release;
+		};
+		04166353210EF40E005992A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FingerCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tony.FingerCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FingerCheck;
+			};
+			name = Debug;
+		};
+		04166354210EF40E005992A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FingerCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tony.FingerCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FingerCheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0416631B210EF3F6005992A6 /* Build configuration list for PBXProject "FingerCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0416634A210EF40E005992A6 /* Debug */,
+				0416634B210EF40E005992A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0416634C210EF40E005992A6 /* Build configuration list for PBXNativeTarget "FingerCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0416634D210EF40E005992A6 /* Debug */,
+				0416634E210EF40E005992A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0416634F210EF40E005992A6 /* Build configuration list for PBXNativeTarget "FingerCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04166350210EF40E005992A6 /* Debug */,
+				04166351210EF40E005992A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04166352210EF40E005992A6 /* Build configuration list for PBXNativeTarget "FingerCheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04166353210EF40E005992A6 /* Debug */,
+				04166354210EF40E005992A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04166318210EF3F6005992A6 /* Project object */;
+}
